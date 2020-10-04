@@ -1,0 +1,141 @@
+#home-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  height: 95vh;
+  margin: 0 auto;
+}
+
+#description-container {
+  height: 590px;
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#description-container h1 {
+  color: white;
+  font-size: 3.4375rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#description-container h1 span {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+#description-container h2 {
+  color: white;
+  font-size: 2.8125rem;
+  font-weight: 300;
+}
+
+#login-container {
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+  width: 27.5rem;
+  height: 40rem;
+  /* margin: 42px 0; */
+}
+
+#login-container h2 {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+#login-container fieldset {
+  border: none;
+}
+
+#login-container button {
+  height: 63px;
+  width: 361px;
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  margin-left: 37px;
+  margin-top: 36px;
+}
+
+#login-container p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 24px;
+  text-align: center;
+}
+
+#forgot-password {
+  text-decoration: none;
+}
+
+#forgot-password p {
+  color: #2A81F5;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 37px;
+  margin-top: 24px;
+}
+
+#create-account {
+  display: flex;
+  height: 63px;
+  width: 361px;
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+  margin-left: 37px;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  margin: 55px auto 0 auto;
+  background-color: white;
+  height: 3rem;
+  width: 22.5rem;
+  border-radius: 5px;
+}
+
+.field input {
+  border: none;
+  outline-color: var(--accent-color);
+  height: 3rem;
+  width: 19.875rem;
+  margin-left: 10px;
+}
+
+.field input::placeholder {
+  color: var(--input-text-color);
+  font-size: 1.5rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-70%);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  color: white;
+}
+
+footer span {
+  color: var(--accent-color);
+}
